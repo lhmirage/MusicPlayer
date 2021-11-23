@@ -1,10 +1,12 @@
 <template>
-  <h1>我是APP</h1>                                                                                                                                           
+  <header-bar />                                                                                                                                        
 </template>
 
 <script>
+import HeaderBar from './components/headerBar/HeaderBar'
 
 export default {
+  components: { HeaderBar },
   name: 'App',
   
 }
